@@ -60,14 +60,5 @@
     padding-top: 1%;
 }
 
-/*Media Queries*/
 
-@media all and (max-width:768px) {
-    .subtituloBlog {
-        font-size: 1.5rem;
-        font-weight: bold;
-        text-align: center;
-        width: 900%;
-    
-    }
 }
