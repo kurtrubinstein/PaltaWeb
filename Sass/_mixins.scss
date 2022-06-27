@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+
+
+    @mixin fondoPaltas ($color-principal, $padding, $colorFondoPalta)
+    {   
+        color: $color-principal;
+        background-color: $colorFondoPalta;
+        padding: $padding;
+    }
+    
+    .subtituloPaltas {
+        @include fondoPaltas(green,2px ,yellow )
+    }
+}
